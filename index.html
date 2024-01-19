@@ -6,18 +6,23 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0">
     <title>Anna's Portfolio</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
-
+    <!--FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
+    <link rel="preload" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/complete/WantedSansVariable.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/complete/WantedSansVariable.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
     <link rel="stylesheet" href="css/common.css">
 </head>
 <body>
 <div id="wrap">
     <!--HEADER-->
-    <header>
+    <header class="en-font">
         <div class="inner">
             <h1 class="header-logo">
                 <a href="/">Anna's Portfolio</a>
@@ -34,7 +39,33 @@
 
     <!--INTRO-->
     <section class="intro">
-        intro
+        <div class="inner">
+            <div class="intro-en en-font">
+                <p>Welcome! I'm Yeonju An,</p>
+                <p>a Web Publisher.</p>
+            </div>
+            <div class="intro-ko">
+                <p>
+                    웹표준과 웹접근성을 준수하고, 반응형과 인터랙션을 구현할 수 있습니다.<br>
+                    웹 에이전시에서 2년 3개월간 실무를 경험하며 프론트엔드와 백엔드 개발자, 기획자와 함께 다양한 프로젝트를 진행했습니다.<br>
+                    새로운 기술을 배우는 것에 두려움이 없습니다. 그 자리에 멈춰있지 않고 앞으로 계속 나아가고자 함입니다.
+                </p>
+                <div class="intro-menu en-font">
+                    <a href="javascript:void(0)">
+                        <span class="material-icons">
+                            face_retouching_natural
+                        </span>
+                        About me
+                    </a>
+                    <a href="mailto:yjandev@gmail.com">
+                        <span class="material-icons">
+                            alternate_email
+                        </span>
+                        yjandev@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
     </section>
 </div>
 </body>
