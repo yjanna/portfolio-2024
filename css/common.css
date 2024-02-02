@@ -160,16 +160,28 @@ header a {
 }
 
 /* PROJECT */
+.project h2 {
+    margin-bottom: 30px;
+}
+.project .title h3,.project .title p {
+    display: inline;
+}
+.project .title p {
+    margin-left: 5px;
+}
 .project ul {
     display: flex;
     flex-wrap: wrap;
-    margin: 25px -15px -15px;
+    margin: 5px -15px -15px;
+}
+.project ul + .title {
+    margin-top: 50px;
 }
 .project li {
     position: relative;
     background-color: #1E2020;
     border-radius: 20px;
-    padding: 30px;
+    padding: 20px;
     width: calc(25% - 45px);
     margin: 15px;
     box-sizing: border-box;
