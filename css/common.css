@@ -263,3 +263,25 @@ header a {
     height: 50px;
     opacity: 1;
 }
+
+/* CONTACT */
+.contact .email {
+    margin-top: 50px;
+    font-size: 80px;
+}
+.contact .text {
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    width: fit-content;
+}
+.contact .text span {
+    margin-left: 4px;
+    scale: 0.8;
+}
+.contact .text:hover {
+    color: rgb(165, 207, 255);
+}
+.contact .text:hover span {
+    scale: 1;
+}
