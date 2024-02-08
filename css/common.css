@@ -64,6 +64,10 @@ header a {
     display: flex;
     gap: 6px;
 }
+.header-menu ul li.active a {
+    background-color: rgb(165, 207, 255);
+    color: #1E2020;
+}
 .header-menu a {
     border-radius: 18px;
 }
@@ -271,20 +275,11 @@ header a {
     color: #f7f7f7;
 }
 .contact .text {
-    display: flex;
-    align-items: center;
     transition: 0.3s;
     width: fit-content;
 }
-.contact .text span {
-    margin-left: 4px;
-    scale: 0.8;
-}
 .contact .text:hover {
     color: rgb(165, 207, 255);
-}
-.contact .text:hover span {
-    scale: 1;
 }
 
 /* FOOTER */

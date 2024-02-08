@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* ABOUT */
+.profile h2 {
+    font-size: 70px;
+}
+.profile p {
+    margin-top: 50px;
+    width: 50%;
+    margin-left: auto;
+    word-break: break-word;
+    color: #b8b8b8;
+}
+.profile p em {
+    font-weight: 700;
+    color: #f7f7f7;
+}

@@ -1,3 +1,3 @@
 // footer
-const footerYear = document.querySelector('footer .year');
-footerYear.textContent = new Date().getFullYear();
+const thisYear = document.querySelector('footer .year');
+thisYear.textContent = new Date().getFullYear();
