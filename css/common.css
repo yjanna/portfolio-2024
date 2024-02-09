@@ -273,13 +273,13 @@ header a {
     margin-top: 50px;
     font-size: 80px;
     color: #f7f7f7;
+    transition: 0.3s;
+}
+.contact .email:hover {
+    color: rgb(165, 207, 255);
 }
 .contact .text {
-    transition: 0.3s;
     width: fit-content;
-}
-.contact .text:hover {
-    color: rgb(165, 207, 255);
 }
 
 /* FOOTER */
